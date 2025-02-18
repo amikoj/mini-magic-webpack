@@ -1,0 +1,37 @@
+{
+  "name": "mini-magic-webpack",
+  "version": "0.0.1",
+  "description": "min webpack implementation",
+  "main": "webpack.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amikoj/mini-magic-webpack.git"
+  },
+  "keywords": [
+    "mini",
+    "webpack",
+    "generate",
+    "bundle",
+    "traverse",
+    "libraries"
+  ],
+  "author": "amiko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amikoj/mini-magic-webpack/issues"
+  },
+  "homepage": "https://github.com/amikoj/mini-magic-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/parser": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@babel/traverse": "^7.26.9"
+  }
+}
